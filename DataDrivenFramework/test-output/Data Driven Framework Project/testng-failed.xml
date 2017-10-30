@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Data Driven Framework Project]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Data Driven Framework(failed)">
+    <classes>
+      <class name="com.medicathrms.Dashboard">
+        <methods>
+          <include name="dashboard"/>
+        </methods>
+      </class> <!-- com.medicathrms.Dashboard -->
+    </classes>
+  </test> <!-- Data Driven Framework(failed) -->
+</suite> <!-- Failed suite [Data Driven Framework Project] -->

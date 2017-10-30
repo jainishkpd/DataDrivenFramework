@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Parallel test suite]">
+  <test name="chrometest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.medicathrms.Login">
+        <methods>
+          <include name="getOTPMethod"/>
+          <include name="sendOTPPage"/>
+          <include name="passSetup" invocation-numbers="0"/>
+          <include name="loginMethod"/>
+        </methods>
+      </class> <!-- com.medicathrms.Login -->
+      <class name="com.medicathrms.Dashboard">
+        <methods>
+          <include name="dashboard"/>
+        </methods>
+      </class> <!-- com.medicathrms.Dashboard -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="chrometest"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="33.409">
+  <properties />
+  
+  
+            <testcase name="getOTPMethod" time="1.235" classname="com.medicathrms.Login" />
+                <testcase name="passSetup" time="3.787" classname="com.medicathrms.Login" />
+                <testcase name="loginMethod" time="27.087" classname="com.medicathrms.Login" />
+                <testcase name="sendOTPPage" time="1.300" classname="com.medicathrms.Login" />
+      
+</testsuite>

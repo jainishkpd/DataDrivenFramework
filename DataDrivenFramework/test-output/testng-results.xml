@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel test suite" duration-ms="79078" started-at="2017-10-26T04:47:11Z" finished-at="2017-10-26T04:48:30Z">
+    <groups>
+    </groups>
+    <test name="chrometest" duration-ms="35766" started-at="2017-10-26T04:47:11Z" finished-at="2017-10-26T04:47:47Z">
+      <class name="com.medicathrms.Dashboard">
+        <test-method status="PASS" signature="dashboard()[pri:0, instance:com.medicathrms.Dashboard@ae45eb6]" name="dashboard" duration-ms="403" started-at="2017-10-26T10:17:46Z" finished-at="2017-10-26T10:17:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboard -->
+      </class> <!-- com.medicathrms.Dashboard -->
+      <class name="com.medicathrms.Login">
+        <test-method status="PASS" signature="passSetup(java.lang.String)[pri:0, instance:com.medicathrms.Login@3ffc5af1]" name="passSetup" duration-ms="5059" started-at="2017-10-26T10:17:11Z" finished-at="2017-10-26T10:17:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passSetup -->
+        <test-method status="PASS" signature="loginMethod()[pri:0, instance:com.medicathrms.Login@3ffc5af1]" name="loginMethod" duration-ms="27454" started-at="2017-10-26T10:17:16Z" depends-on-methods="com.medicathrms.Login.passSetup" finished-at="2017-10-26T10:17:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginMethod -->
+        <test-method status="PASS" signature="getOTPMethod()[pri:0, instance:com.medicathrms.Login@3ffc5af1]" name="getOTPMethod" duration-ms="1494" started-at="2017-10-26T10:17:44Z" depends-on-methods="com.medicathrms.Login.loginMethod" finished-at="2017-10-26T10:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOTPMethod -->
+        <test-method status="PASS" signature="sendOTPPage()[pri:0, instance:com.medicathrms.Login@3ffc5af1]" name="sendOTPPage" duration-ms="1322" started-at="2017-10-26T10:17:45Z" depends-on-methods="com.medicathrms.Login.getOTPMethod" finished-at="2017-10-26T10:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendOTPPage -->
+      </class> <!-- com.medicathrms.Login -->
+    </test> <!-- chrometest -->
+    <test name="firefoxtest" duration-ms="43285" started-at="2017-10-26T04:47:47Z" finished-at="2017-10-26T04:48:30Z">
+      <class name="com.medicathrms.Dashboard">
+        <test-method status="PASS" signature="dashboard()[pri:0, instance:com.medicathrms.Dashboard@e25b2fe]" name="dashboard" duration-ms="83" started-at="2017-10-26T10:18:30Z" finished-at="2017-10-26T10:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboard -->
+      </class> <!-- com.medicathrms.Dashboard -->
+      <class name="com.medicathrms.Login">
+        <test-method status="PASS" signature="passSetup(java.lang.String)[pri:0, instance:com.medicathrms.Login@4667ae56]" name="passSetup" duration-ms="11003" started-at="2017-10-26T10:17:47Z" finished-at="2017-10-26T10:17:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passSetup -->
+        <test-method status="PASS" signature="loginMethod()[pri:0, instance:com.medicathrms.Login@4667ae56]" name="loginMethod" duration-ms="30287" started-at="2017-10-26T10:17:58Z" depends-on-methods="com.medicathrms.Login.passSetup" finished-at="2017-10-26T10:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginMethod -->
+        <test-method status="PASS" signature="getOTPMethod()[pri:0, instance:com.medicathrms.Login@4667ae56]" name="getOTPMethod" duration-ms="786" started-at="2017-10-26T10:18:28Z" depends-on-methods="com.medicathrms.Login.loginMethod" finished-at="2017-10-26T10:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOTPMethod -->
+        <test-method status="PASS" signature="sendOTPPage()[pri:0, instance:com.medicathrms.Login@4667ae56]" name="sendOTPPage" duration-ms="1110" started-at="2017-10-26T10:18:29Z" depends-on-methods="com.medicathrms.Login.getOTPMethod" finished-at="2017-10-26T10:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendOTPPage -->
+      </class> <!-- com.medicathrms.Login -->
+    </test> <!-- firefoxtest -->
+  </suite> <!-- Parallel test suite -->
+</testng-results>

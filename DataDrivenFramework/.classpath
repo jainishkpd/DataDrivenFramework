@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java-3.6.0/client-combined-3.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java-3.6.0/client-combined-3.6.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java-3.6.0/libs/byte-buddy-1.7.5.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java-3.6.0/libs/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java-3.6.0/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java-3.6.0/libs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java-3.6.0/libs/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java-3.6.0/libs/guava-23.0.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java-3.6.0/libs/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java-3.6.0/libs/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java-3.6.0/libs/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java-3.6.0/libs/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/apache-httpcomponents-httpmime.jar/apache-httpcomponents-httpmime.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/commons-io-2.5-bin/commons-io-2.5/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/commons-io-2.5-bin/commons-io-2.5/commons-io-2.5-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/commons-lang3-3.6-bin/commons-lang3-3.6/commons-lang3-3.6.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/commons-lang3-3.6-bin/commons-lang3-3.6/commons-lang3-3.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/commons-lang3-3.6-bin/commons-lang3-3.6/commons-lang3-3.6-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/commons-lang3-3.6-bin/commons-lang3-3.6/commons-lang3-3.6-tests.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/commons-lang3-3.6-bin/commons-lang3-3.6/commons-lang3-3.6-test-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/hamcrest-1.3/hamcrest-1.3/hamcrest-all-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/hamcrest-1.3/hamcrest-1.3/hamcrest-all-1.3-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/hamcrest-1.3/hamcrest-1.3/hamcrest-all-1.3-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/hamcrest-1.3/hamcrest-1.3/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/hamcrest-1.3/hamcrest-1.3/hamcrest-core-1.3-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/hamcrest-1.3/hamcrest-1.3/hamcrest-core-1.3-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/hamcrest-1.3/hamcrest-1.3/hamcrest-generator-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/hamcrest-1.3/hamcrest-1.3/hamcrest-generator-1.3-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/hamcrest-1.3/hamcrest-1.3/hamcrest-generator-1.3-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/hamcrest-1.3/hamcrest-1.3/hamcrest-integration-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/hamcrest-1.3/hamcrest-1.3/hamcrest-integration-1.3-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/hamcrest-1.3/hamcrest-1.3/hamcrest-integration-1.3-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/hamcrest-1.3/hamcrest-1.3/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/hamcrest-1.3/hamcrest-1.3/hamcrest-library-1.3-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/hamcrest-1.3/hamcrest-1.3/hamcrest-library-1.3-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/selenium-java 3.6.0 (Required external jar files)/javaocr-core-1.0-sources.jar/javaocr-core-1.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/jar_files/guice-4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/jar_files/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="D:/Jainish/RND/Drivers/jar_files/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jainish.m.kapadia/Pictures/apache-logging-log4j.jar/apache-logging-log4j.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
