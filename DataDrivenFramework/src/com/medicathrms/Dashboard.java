@@ -20,7 +20,7 @@ public class Dashboard extends BrowserSetup {
 	{
 		new LogWriter().setLogger();
 		
-		String page_title = driver.getTitle();
+		String page_title = driver.getTitle(); 
 		System.out.println(page_title);
 		LogWriter.logger.info(page_title);
 		
